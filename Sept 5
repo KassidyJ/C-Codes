@@ -1,0 +1,25 @@
+#include <iostrean>
+using namespace std;
+
+int main () {
+
+//variables
+double purchase, totalSalesTax, totalStateTax,totalBill;
+const double salesTax = 0.04;
+const double stateTax = 0.02;
+
+//input
+cout << "Enter the amount of purchase" << endl;
+cin >> purchase;
+cin >> purchase;
+
+//processing 
+totalSalesTax = purchase * salesTax;
+totalStateTax = purchase * stateTax;
+totalBill = purchase + totalSalesTax + totalStateTax;
+
+//output
+cout << "Total Sales Tax: $" << totalSalesTax << endl;
+cout << "Total State Tax: $" << cout << "Total Bill: $" << endl
+return 0;
+} 
